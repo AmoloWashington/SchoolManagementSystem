@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="361.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxloginandregistration.FXMLProgramInput2Controller">
+   <children>
+      <Label layoutX="85.0" layoutY="30.0" text="Registration of new programs" textFill="#d02222">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="90.0" text="program:" />
+      <Label layoutX="23.0" layoutY="139.0" text="program id:" />
+      <TextField fx:id="program" layoutX="119.0" layoutY="86.0" promptText="program" />
+      <TextField fx:id="programid" layoutX="119.0" layoutY="135.0" promptText="program id" />
+      <Button fx:id="save" layoutX="250.0" layoutY="234.0" mnemonicParsing="false" onAction="#savebuttonaction" text="save" />
+
+      <Button fx:id="clear" layoutX="151.0" layoutY="234.0" mnemonicParsing="false" text="Clear" onAction ="#clearbuttonaction"/>
+</children>
+</AnchorPane>

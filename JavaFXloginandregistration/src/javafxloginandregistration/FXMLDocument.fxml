@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="263.0" prefWidth="269.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxloginandregistration.FXMLDocumentController">
+   <children>
+      <Label layoutX="87.0" layoutY="14.0" text="Login scene">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="64.0" text="Username:" />
+      <Label layoutX="52.0" layoutY="104.0" text="Password:" />
+      <TextField fx:id="username" layoutX="116.0" layoutY="60.0" prefHeight="25.0" prefWidth="95.0" promptText="username" />
+      <PasswordField fx:id="password" layoutX="116.0" layoutY="100.0" prefHeight="25.0" prefWidth="95.0" promptText="password" />
+      <Button fx:id="login" layoutX="168.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleButtonLogin"  text="login" />
+      <Button fx:id="register" layoutX="121.0" layoutY="205.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="95.0" text="Register" />
+   </children>
+</AnchorPane>
